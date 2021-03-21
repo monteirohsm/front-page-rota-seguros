@@ -1,0 +1,295 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  min-height: 5.25rem !important;
+}
+
+.navbar-item img {
+  width: 256px !important;
+  max-height: 100% !important;
+}
+
+.hero.is-info {
+  background-color: #429adb !important;
+  color: #fff;
+}
+
+.hero-body {
+  padding: 0 !important;
+}
+
+.hero-body-changed {
+  padding: 4rem 1.5rem !important;
+}
+
+.column-left-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.max-height-667 {
+  max-height: 667px;
+}
+
+.is-link {
+  border-radius: 10px;
+  background-color: rgb(50, 115, 220);
+}
+
+.wpp-button {
+  background-color: rgb(52, 175, 35) !important;
+  border-radius: 10px;
+}
+
+.blue-color {
+  background-color: rgb(50, 115, 220);
+  color: white;
+}
+
+.img-size {
+  width: 310px;
+  max-height: 205.31px;
+}
+
+.hr-line {
+  width: 180px;
+  border-radius: 2px;
+  margin-top: -10px;
+  animation-name: line-in;
+  animation-duration: 2s;
+  transition-timing-function: ease-out;
+}
+
+@keyframes line-in {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 180px;
+  }
+}
+
+.bg-grey {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card-content-changed {
+  padding: 0;
+}
+
+.card-header-changed {
+  height: 0;
+}
+
+.card-changed {
+  max-width: 310px;
+  min-width: 205px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.content-changed {
+  height: 100%;
+}
+
+.center-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.column-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-img:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+hr {
+  margin: 0%;
+}
+
+.hr-center {
+  margin: -10px;
+}
+
+.img-hover-zoom {
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 1s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.first-container {
+  display: flex;
+  justify-content: center;
+}
+
+.align-figure-png {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-figure-jpg {
+  display: flex;
+}
+
+.second-container {
+  display: flex;
+  justify-content: center;
+}
+
+.third-container {
+  display: flex;
+  justify-content: center;
+}
+
+.div-operator-margin {
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.img-hover-zoom-soft {
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-hover-zoom-soft img {
+  transition: transform 0.1s ease;
+}
+
+.img-hover-zoom-soft:hover img {
+  transform: scale(0.7);
+}
+
+.img-hover-zoom-soft-jpg {
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-hover-zoom-soft-jpg img {
+  transition: transform 0.1s ease;
+}
+
+.img-hover-zoom-soft-jpg:hover img {
+  transform: scale(1.5);
+}
+
+.card-operators {
+  cursor: pointer;
+  border-radius: 15px 50px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card-footer {
+  border-top: none;
+}
+
+.svg-mao {
+  filter: invert(100%) sepia(4%) saturate(15%) hue-rotate(117deg)
+    brightness(107%) contrast(104%);
+}
+
+.svg-icons {
+  filter: invert(41%) sepia(88%) saturate(584%) hue-rotate(180deg)
+    brightness(88%) contrast(96%);
+}
+
+.card-blue-bottom {
+  border-bottom: 3px solid rgb(50, 115, 220);
+}
+
+.card-down {
+  border-radius: 0px 0px 20px 20px;
+  border-bottom: 3px solid rgb(50, 115, 220);
+}
+.card-blue-bottom:hover {
+  box-shadow: 1px 1px rgb(50, 115, 220), 3px 3px rgb(50, 115, 220),
+    3px 3px rgb(50, 115, 220);
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.1s;
+}
+
+.media-content {
+  overflow-y: hidden;
+}
+
+.column-operators-center {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  background-image: linear-gradient(
+    120deg,
+    #fdfbfb 0%,
+    #ebedee 100%
+  ) !important;
+  padding: 3rem 1.5rem 3rem;
+}
+
+.carousel-container {
+  height: 100%;
+  padding: 0%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 1300px;
+  height: 500px;
+}
+.slide-container {
+  height: 570px;
+  width: 100%;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 2%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 2%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1408px) {
+  .carousel-slide {
+    display: none;
+  }
+
+  .column-left-flex {
+    padding: 41px;
+  }
+}
